@@ -1,12 +1,18 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Netflix clone built using **React.js** and **Vite**, with **Firebase Authentication** for user login and **TMDB API** to display movie data and trailers. The app allows users to log in, browse movies, and watch movie trailers.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication**: Sign in using Firebase Authentication.
+- **Movie Browsing**: Display a list of movies fetched from TMDB.
+- **Watch Movie Trailers**: Users can click on a movie to view its trailer.
+- **Responsive Design**: The app works seamlessly on desktop, tablet, and mobile devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**: For building the front-end user interface.
+- **Vite**: A fast build tool to speed up the development process.
+- **Firebase**: For user authentication.
+- **TMDB API**: To fetch movie data and trailers.
+- **CSS**: To style the app and make it look like Netflix.
