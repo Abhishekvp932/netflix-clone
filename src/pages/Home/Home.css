@@ -74,3 +74,24 @@ width: 25px;
     padding-left: 6%;
     
 }
+
+
+@media (max-width : 500px){
+
+    .caption-img{
+        display: none;
+    }
+    .hero-btns .btn img {
+        width: 13px;
+
+    }
+    .btn{
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+    .hero-caption p{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+}
