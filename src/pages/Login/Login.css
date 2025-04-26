@@ -1,24 +1,30 @@
-.login{
+.login {
     height: 100vh;
-    background-image: linear-gradient(#0000007e,#0000007e),url(/background_banner.jpg);
+    background-image: linear-gradient(#0000007e, #0000007e), url(/background_banner.jpg);
     padding: 20px 8%;
-
 }
-.login-form{
+
+.login-logo {
+    display: block;
+    width: 150px;
+    margin: 0 auto 40px;
+}
+
+.login-form {
     max-width: 450px;
-    background: rgba(0, 0, 0,0.75);
+    background: rgba(0, 0, 0, 0.75);
     border-radius: 4px;
     padding: 60px;
     margin: auto;
-
 }
-.login-form h1{
+
+.login-form h1 {
     font-weight: 500;
     margin-bottom: 28px;
-
-
+    font-size: 32px;
 }
-.login-form input{
+
+.login-form input {
     width: 100%;
     height: 50px;
     background: #333;
@@ -30,19 +36,19 @@
     padding: 16px 20px;
     font-size: 16px;
     font-weight: 500;
-
 }
-.login-form input ::placeholder{
+
+.login-form input::placeholder {
     font-size: 16px;
     font-weight: 500;
-
 }
-.login-form button{
+
+.login-form button {
     width: 100%;
-    border:  0;
+    border: 0;
     outline: 0;
     padding: 16px;
-    background: #e50914 ;
+    background: #e50914;
     color: white;
     border-radius: 4px;
     font-size: 16px;
@@ -51,43 +57,41 @@
     cursor: pointer;
 }
 
-.form-help{
+.form-help {
     color: #b3b3b3;
     font-size: 13px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
-.remember input{
+
+.remember input {
     width: 18px;
     height: 18px;
+    margin-right: 6px;
 }
-.form-switch{
+
+.form-switch {
     color: #737373;
+    margin-top: 20px;
 }
-.form-switch span{
+
+.form-switch span {
     margin-left: 6px;
     color: #fff;
     font-weight: 500;
     cursor: pointer;
 }
-.login-spinner{
+
+.login-spinner {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.login-spinner img{
-    width:  60px;
-}
 
-@media (max-width :500px){
-    .login{
-        padding:  15px 5%;
-    }
-    .login-form{
-        padding: 20px ;
-        margin-top: 30px;
-
-    }
-
+.login-spinner img {
+    width: 60px;
 }

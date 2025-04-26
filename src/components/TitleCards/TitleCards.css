@@ -27,6 +27,8 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+    text-decoration: none;
+    color: white;
 }
 @media( max-width:800px){
     .title-cards{
