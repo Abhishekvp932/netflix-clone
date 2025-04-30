@@ -30,6 +30,7 @@ const signUp = async (name, email, password) => {
       authProvider: "local",
       email,
     });
+    localStorage.setItem("email", "email");
   } catch (error) {
     console.log(error);
     toast.error(error.code.split('/')[1].split('-').join(" "));
@@ -41,6 +42,7 @@ const signUp = async (name, email, password) => {
 const login = async (email,password)=>{
             try{
                 await signInWithEmailAndPassword(auth,email,password)
+                localStorage.setItem("email", "email");
             }catch(error){
                 console.log(error)
                 toast.error(error.code.split('/')[1].split('-').join(" "));
@@ -48,6 +50,7 @@ const login = async (email,password)=>{
 }
 
 const logout=()=>{
+  localStorage.removeItem("email");
 signOut(auth)
 }
 
