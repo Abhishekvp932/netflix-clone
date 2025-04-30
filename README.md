@@ -16,3 +16,4 @@ This is a Netflix clone built using **React.js** and **Vite**, with **Firebase A
 - **Firebase**: For user authentication.
 - **TMDB API**: To fetch movie data and trailers.
 - **CSS**: To style the app and make it look like Netflix.
+
