@@ -11,6 +11,8 @@ This is a Netflix clone built using **React.js** and **Vite**, with **Firebase A
 
 ## Technologies Used
 
+
+
 - **React.js**: For building the front-end user interface.
 - **Vite**: A fast build tool to speed up the development process.
 - **Firebase**: For user authentication.
